@@ -87,6 +87,10 @@ details:last-child * {
     margin-bottom: 0;
 }
 
+details[open]:last-child p {
+    margin-top: 1.375rem;
+}
+
 section.faq-container {
     max-width: 37.5rem;
     background-color: var(--white);
@@ -146,6 +150,7 @@ main {
 
 
 footer {
+    display: hidden;
     background-color: rgba(3, 3, 3, 0.336);
 }
 
