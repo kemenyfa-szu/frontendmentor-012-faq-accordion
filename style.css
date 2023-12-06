@@ -150,7 +150,7 @@ main {
 
 
 footer {
-    display: hidden;
+    display: None;
     background-color: rgba(3, 3, 3, 0.336);
 }
 
